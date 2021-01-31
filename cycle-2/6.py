@@ -1,8 +1,11 @@
-names=["Abha","Anna","Navami","Alka"]
+#occurance of 'a'
+
+names=["Abha","Anna","Navami","jencaAail","Jayakumar"]
 count=0
 for x in names:
-    if('a' in x ):
+    
+    for i in x:
+        
+     if('a' in i):
         count=count+1
-    if('A' in x):
-        count=count+1
-print(count)
+print("The occurance of 'a'in the list is", count)
